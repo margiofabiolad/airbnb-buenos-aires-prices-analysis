@@ -1,6 +1,6 @@
 # Airbnb Buenos Aires — Price Analysis
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/airbnb-buenos-aires-prices-analysis/blob/main/airbnb-price-analysis.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/margiofabiolad/airbnb-buenos-aires-prices-analysis/blob/main/airbnb_price_analysis.ipynb)
 
 An exploratory data analysis of 27,000+ Airbnb listings in Buenos Aires, identifying
 what drives nightly price differences across the city.
