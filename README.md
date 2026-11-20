@@ -8,8 +8,9 @@ what drives nightly price differences across the city.
 Starting from raw listing data, this notebook:
 
 1. **Cleans the data** — converts price from text (`"$185,388.00"`) to a numeric
-   field, and removes a small fraction (~1%) of listings with clearly erroneous
-   prices (data entry errors), identified via percentile analysis.
+   field, drops listings with no price (~6.5% of the raw data, since they can't be
+   used in a price analysis), and removes a further ~1% of listings with clearly
+   erroneous prices (data entry errors), identified via percentile analysis.
 2. **Explores price distribution** across the dataset.
 3. **Analyzes three key drivers of price:**
    - Neighbourhood (location)
@@ -27,8 +28,9 @@ Starting from raw listing data, this notebook:
 Palermo — the neighbourhood with by far the most listings — initially looked only
 moderately priced when comparing all room types mixed together. But once compared
 like-for-like (entire homes/apartments only), Palermo is in fact the most expensive
-of the top neighbourhoods — consistent with it being the most in-demand, touristic
-area in the city.
+of the 8 neighbourhoods with the most listings — though by a modest margin
+(median ~117,000 ARS per night vs. ~112,000 for Belgrano, the runner-up). This is
+consistent with Palermo being the most in-demand, touristic area in the city.
 
 This is a practical illustration of why controlling for confounding variables
 matters before drawing conclusions from grouped comparisons.
@@ -47,4 +49,3 @@ matters before drawing conclusions from grouped comparisons.
 
 Built by [Margionet](https://github.com/margiofabiolad) — physicist transitioning
 into data analysis, with a background in statistical research from astrophysics.
-
