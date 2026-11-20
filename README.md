@@ -45,6 +45,8 @@ matters before drawing conclusions from grouped comparisons.
 
 ## Data source
 
+The dataset (listing.zip) is included in this repository.
+
 [Inside Airbnb](http://insideairbnb.com/) — detailed listings data for Buenos Aires.
 
 ## About
